@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-network-status": [
+        "dist/ng-network-status"
+      ],
+      "ng-network-status/*": [
+        "dist/ng-network-status/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
