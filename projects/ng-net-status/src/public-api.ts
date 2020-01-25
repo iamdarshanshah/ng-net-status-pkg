@@ -4,4 +4,4 @@
 
 export * from './lib/ng-offline.directive';
 export * from './lib/ng-online.directive';
-export * from './lib/ng-network-status.module';
+export * from './lib/ng-net-status.module';

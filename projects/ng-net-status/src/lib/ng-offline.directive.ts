@@ -2,6 +2,7 @@ import { Directive, ElementRef } from '@angular/core';
 import { BaseDirective } from './ng-base.directive';
 
 @Directive({
+  // tslint:disable-next-line: directive-selector
   selector: '[ngOffline]'
 })
 export class NgOfflineDirective extends BaseDirective {

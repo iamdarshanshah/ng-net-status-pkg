@@ -11,4 +11,4 @@ import { NgOnlineDirective } from './ng-online.directive';
   declarations: [NgOfflineDirective, NgOnlineDirective],
   exports: [NgOfflineDirective, NgOnlineDirective]
 })
-export class NgNetworkStatusModule { }
+export class NgNetStatusModule { }

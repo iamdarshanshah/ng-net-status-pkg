@@ -15,7 +15,7 @@ Import `NgNetStatusModule` into your ngModule and start using directives `ngOnli
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { NgNetStatusModule } from 'ng-offline';
+import { NgNetStatusModule } from 'ng-net-status';
 
 import { AppComponent } from './app.component';
 
@@ -25,7 +25,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    NgOfflineModule
+    NgNetStatusModule
   ],
   providers: [],
   bootstrap: [AppComponent]

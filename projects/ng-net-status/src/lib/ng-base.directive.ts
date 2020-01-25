@@ -13,6 +13,7 @@ export class BaseDirective implements OnInit, OnDestroy {
   public enabled: boolean;
   public online: boolean;
   public pollingId?: number;
+  // tslint:disable-next-line: variable-name
   public readonly _el: ElementRef;
 
   constructor(el: ElementRef) {
