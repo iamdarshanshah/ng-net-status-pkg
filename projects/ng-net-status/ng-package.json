@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ng-network-status",
+  "dest": "../../dist/ng-net-status",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

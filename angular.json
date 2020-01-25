@@ -3,33 +3,33 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-network-status": {
+    "ng-net-status": {
       "projectType": "library",
-      "root": "projects/ng-network-status",
-      "sourceRoot": "projects/ng-network-status/src",
+      "root": "projects/ng-net-status",
+      "sourceRoot": "projects/ng-net-status/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng-network-status/tsconfig.lib.json",
-            "project": "projects/ng-network-status/ng-package.json"
+            "tsConfig": "projects/ng-net-status/tsconfig.lib.json",
+            "project": "projects/ng-net-status/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-network-status/src/test.ts",
-            "tsConfig": "projects/ng-network-status/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-network-status/karma.conf.js"
+            "main": "projects/ng-net-status/src/test.ts",
+            "tsConfig": "projects/ng-net-status/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-net-status/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-network-status/tsconfig.lib.json",
-              "projects/ng-network-status/tsconfig.spec.json"
+              "projects/ng-net-status/tsconfig.lib.json",
+              "projects/ng-net-status/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -38,5 +38,5 @@
         }
       }
     }},
-  "defaultProject": "ng-network-status"
+  "defaultProject": "ng-net-status"
 }
