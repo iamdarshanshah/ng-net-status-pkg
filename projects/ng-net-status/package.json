@@ -1,8 +1,25 @@
 {
   "name": "ng-net-status",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "peerDependencies": {
     "@angular/common": "^8.1.3",
     "@angular/core": "^8.1.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/iamdarshanshah/ng-net-status-pkg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdarshanshah/ng-net-status-pkg"
+  },
+  "homepage": "https://github.com/iamdarshanshah/ng-net-status-pkg/tree/master/projects/ng-net-status-pkg#readme",
+  "keywords": [
+    "angular",
+    "ng-net-status",
+    "offline",
+    "online",
+    "connection"
+  ],
+  "author": "Darshan Shah",
+  "license": "MIT"
 }
